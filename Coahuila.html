@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src=".\myBootstrapWeb\jquery\jquery-3.6.0.min.js"></script>
+    <script SRC=".\myBootstrapWeb\js\bootstrap.bundle.min.js"></script>    
+    <link rel="stylesheet" href=".\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\estiloEtiqueta.css">
+    <link rel="stylesheet" href=".\css\estiloChiapas.css">
+    <link rel="stylesheet" href="../myBootstrapWeb/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href=".\fontawesome-free-5.15.4-web\css\all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+</head>
+
+<body>
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+        
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav> 
+
+    <div class="cover d-flex justify-content-center align-items-center flex-column" id="DestinosImgIntro" >
+      <h1 class="w3-ma rgin w3-jumbo" >Coahuila</h1>
+      <p class="w3-xlarge" id="infInt">Disfruta de los asombrosos vinos y pueblos mágicos, sus exquisitos aromas y sabores y la mística tierra de dinosaurios.</p>
+    </div>
+   
+    <section> 
+        <div class="cajaVideo container mt-25 mb-15 w3-padding-32">
+        <video controls autoplay>
+            <source src=".\images\coahuila.mp4" type="video/mp4"/>
+            <source src="mov_bbb.ogg" type="video/ogg">
+            </video>  
+        </div>
+        <div class="CoahuilaImAnimada container mt-25 mb-15 flex-column" id="textInt">
+          <img src=".\images\coahuilacol.jpg" class="float-left   mr-4" id="imfoto" height="250">
+          <p>Coahuila ofrece una gran cantidad de experiencias turísticas, es el tercer estado más grande del país, se encuentra en la zona norte y limita al este con Nuevo León y al Sur con Zacatecas y San Luis Potosí. En su territorio predomina el desierto, sin embargo también cuenta con hermosas ciénegas, lagunas montañas y bosques.
+            <br><br>
+            Su capital, Saltillo tiene una variedad de museos como el Museo Venustiano Carranza, el del Desierto y el de Aves. Al caminar por sus calles descubrirás la belleza de sus construcciones de gran valor tanto histórico como arquitectónico.
+            <br><br>
+            Otras importantes regiones del estado son Piedras Negras, Torreón y Monclova.
+            <br><br>
+            Coahuila cuenta con siete Pueblos Mágicos en los que podrás disfrutar de la naturaleza y belleza de su territorio.
+            <br><br>
+            Cuatro Ciénegas es uno de los atractivos más populares por sus maravillas naturales como la Poza Azul, las Minas de Mármol y las sorprendentes Dunas de Yeso.
+            <br><br>
+            Arteaga, la llamada Suiza mexicana gracias a sus paisajes montañosos, es ideal para practicar esquí, paseos a caballo o en bicicleta, así como senderismo.
+            <br><br>
+            En Parras de la Fuente podrás pasear por sus viñedos y descubrir sus sitios históricos como el Santuario de Nuestra Señora de Guadalupe.
+            <br><br>
+            Sorpréndete con las Dunas de Bilbao en el Pueblo Mágico de Viesca donde también podrás apreciar el trabajo de tejido y bordado de los artesanos de la región.
+            <br><br> 
+            Tampoco puedes dejar de visitar Candela y sus relajantes aguas termales, conocer la historia del pueblo de Guerrero en la Misión de San Bernardo o Melchor Múzquiz y sus museos y edificios históricos.
+            <br><br>
+            Como verás, Coahuila está lleno de lugares que te sorprenderán, prepara bien tu itinerario y disfruta tu viaje.
+          </p>
+          </div>
+        </section> 
+          <section>
+            <div class="container">
+              <h4>
+                <br><br>
+                ¡Aquí nos vemos!
+              </h4>
+              <div class = "responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5573228.492965428!2d-104.70283613421323!3d25.325320798356852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868bf579948be367%3A0xbe481621cad4a5bf!2sCuatroci%C3%A9negas%2C%20Coah.!5e0!3m2!1ses-419!2smx!4v1648366951564!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </section>
+        <br>
+
+        <div class="container mt-5 mb-5"><h2>Contenido de interés</h2>
+          <div class = "row"> 
+            <div class = " cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+                <h5 class="w3-ma rgin ">Cuatro Ciénegas</h5>
+                <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                  <input type="image" class="img-thumbnail" src=".\images\cuatroCienegas.jpg" >
+                </a>
+            </div>
+           
+            <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+              <h5 class="w3-ma rgin ">Viesca</h5>
+              <a  class="card" id = "puebMex" style="width:18rem; "href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\Viesca.jpg" >
+              </a>
+            </div> 
+  
+            <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+              <h5 class="w3-ma rgin ">Arteaga</h5>
+              <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\Arteaga.jpg">
+              </a>
+            </div> 
+          </div>
+        </div>
+      <!-- About Section -->
+      <div class="w3-center  w3-padding-16 container  text-align-justify" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dato Interesante</h3>
+        <p id="about"> Coahuila Tierra De Dinosaurios
+          Representa una herencia natural, fósiles marinos y terrestres, con antigüedad de 155 millones de años hasta hace 11 mil años.
+          <br> <br>
+          Coahuila ofrece y ejerce los segmentos de ecoturismo, turismo científico y turismo infantil posicionando y generando orgullo e identidad, y desarrollo de productos turísticos.
+          <br> <br>
+          Es considerado pro Pueblos Mágicos al promover la paleontología como atractivo simbólico ya que representa una responsabilidad de conservación en un marco de sustentabilidad.
+         </p>
+      </div>
+    </div>
+    <!-- Footer -->  
+    <footer>
+      <h3>¡Visita nuestras redes sociales!</h3>
+      <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <br><br>
+      <p>Copyright</p>
+      <p>25/03/2022</p>
+    </footer> 
+
+</body>
+</html>
+ 
+ 

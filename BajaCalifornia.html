@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src=".\myBootstrapWeb\jquery\jquery-3.6.0.min.js"></script>
+    <script SRC=".\myBootstrapWeb\js\bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href=".\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\estiloEtiqueta.css">
+    <link rel="stylesheet" href=".\css\estiloBajaCalifornia.css">
+    <link rel="stylesheet" href=".\fontawesome-free-5.15.4-web\css\all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+</head>
+<body>
+
+  
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+        
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav>  
+    <div class="cover d-flex justify-content-center align-items-center flex-column" id="DestinosImgIntro">
+      <h1 class="w3-ma rgin w3-jumbo" >Baja California</h1>
+      <p class="w3-xlarge" id="infInt">Ubicada en la parte noroeste de México, esta entidad aloja importantes ciudades como Mexicali, Tijuana y Ensenada.</p>
+    </div>
+   
+    <section> 
+        <div class="cajaVideo container mt-25 mb-15 w3-padding-32">
+        <video controls autoplay>
+            <source src=".\images\baja-california.mp4" type="video/mp4"/>
+            <source src="mov_bbb.ogg" type="video/ogg">
+            </video>  
+        </div>
+        <div class="BajaCaliImAnimada container mt-25 mb-15 flex-column" id="textInt">
+          <img src=".\images\bajacalicol.jpg" class="float-left   mr-4" id="imfoto" height="250">
+          <p>
+            Baja California es un estado multifacético y vibrante, su variedad de atractivos naturales, playas, desierto, bosques y valles, hacen de este uno de los estados favoritos de los viajeros. En tu visita disfrutarás del turismo de aventura, actividades acuáticas, te relajarás en la playa, te deleitarás con su deliciosa gastronomía y por supuesto descubrirás la ruta del vino, ya que aquí se produce el 90% del vino del país.
+            <br><br>
+            Este estado se encuentra en la región noroeste del país y su capital es Mexicali, que ofrece una importante oferta de entretenimiento, recintos culturales, también se conoce como una importante región productora de cerveza artesanal. En Mexicali podrás disfrutar de la naturaleza en el Cañón de Guadalupe, entre cascadas, aguas termales y pinturas rupestres.
+            <br><br>
+            Otro de los destinos más populares del estado es sin duda Tijuana, la ciudad fronteriza más visitada del mundo, gracias a su oferta cultural, gastronómica y artística. La ciudad destaca por su modernidad y la fusión de culturas que se da gracias a su cercanía con Estados Unidos.
+            <br><br>
+            Si lo que deseas es pasar el día en la playa Rosarito es tu destino ideal, su oleaje es propicio para practicar surf o si prefieres una actividad más contemplativa puedes bucear.
+            Sus paisajes naturales son tan sorprendentes que han sido protagonistas de un gran número de producciones cinematográficas.
+            <br><br> 
+            Los amantes de la naturaleza y actividades al aire libre encontrarán un edén en Ensenada, ya que el destino cuenta con una gran variedad de flora y fauna, además de albergar áreas protegidas como la Biósfera de la Isla de Guadalupe y el Valle de los Cirios.
+            <br><br>
+            Baja California es un estado que cada día se renueva y ofrece un gran número de opciones para descubrir su maravilloso territorio.
+          </p>
+        </div>
+
+        <section>
+          <div class="container">
+            <h4>
+              <br><br>
+              ¡Aquí nos vemos!
+            </h4>
+            <div class = "responsive-iframe">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6203772.970046568!2d-112.14067202486522!3d27.92837920627398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x812876f1fa1c4ab1%3A0x6096ec6ddeb09b!2s22906%20L%C3%A1zaro%20C%C3%A1rdenas%2C%20B.C.!5e0!3m2!1ses-419!2smx!4v1648365715129!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+            </div>
+          </div>
+        </section>
+      
+      </section>  
+
+      <div class="container mt-5 mb-5"><h2>Contenido de interés</h2>
+        <div class = "row"> 
+          <div class = " cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+              <h5 class="w3-ma rgin ">Los cabos</h5>
+              <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\LosCabos.jpg" >
+              </a>
+          </div>
+         
+          <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+            <h5 class="w3-ma rgin ">Bahía de Loreto</h5>
+            <a  class="card" id = "puebMex" style="width:18rem; "href=".\Contacto.html">
+              <input type="image" class="img-thumbnail" src=".\images\Bahialore.jpg" >
+            </a>
+          </div> 
+
+          <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+            <h5 class="w3-ma rgin ">La Paz</h5>
+            <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+              <input type="image" class="img-thumbnail" src=".\images\laPaz.jpg">
+            </a>
+          </div> 
+        </div>
+      </div>
+      <!-- About Section -->
+      <div class="w3-center  w3-padding-16 container  text-align-justify">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><i class="fa-solid fa-lightbulb-exclamation-on"></i>Dato Interesante</h3>
+        <p id="about">Antiguamente la región estuvo ocupada por grupos nómadas que dejaron como testimonio de su presencia sorprendentes pinturas 
+          rupestres. En el sojuzgamiento de los indígenas pudo más la fe que las armas, y aún quedan vestigios de algunas misiones 
+          jesuitas por la entidad. 
+          <br><br>
+          Esta zona es una de las menos húmedas del planeta; su clima es mayormente seco y extremoso. Los paisajes 
+          son insólitos, pues los matices azules del mar contrastan con el desierto y con sus abruptas sierras pobladas de cactáceas. Entre 
+          las sierras y el mar forman una franja de tierra que da lugar a fértiles valles y deliciosas playas. La fauna terrestre y marina de
+           Baja California es muy variada, y sus vinos y mariscos son de los mejores del país. 
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+<footer class ="text-center">
+  <h3>¡Visita nuestras redes sociales!</h3>
+    <div >
+      <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    </div>
+    <p>Copyright</p>
+    <p>25/03/2022</p>
+</footer>
+</body>
+</html>   

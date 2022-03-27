@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    margin: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .column {
+        width: 100%;
+      }
+    /*.column.side, .column.middle {
+    width: 100%;
+  }*/
+    .videoInicio{
+        width: 100%;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ }
+ #fotoIntro
+{
+    height: 480;
+    background-image: url(.\images\jaliscoIntro.jpg);
+    color:white;
+    background-size: cover;
+
+}
+ #DestinosImgIntro
+ {
+     height: 480px;
+     background:  rgba(0,0,0,0.5) url(../images/jaliscoIntro.jpg);
+     color: rgb(255, 255, 255);
+     background-size: cover;
+     background-position: center;
+ 
+     background-blend-mode:darken;
+ }
+.cajaVideo
+{
+  width: 100%; 
+}
+
+video
+{
+    width: 100%;
+    height: auto; 
+}
+
+
+.ChiapasImAnimada
+{
+  width: 80%; 
+}
+
+#imfoto
+{
+    width: 30%;
+    height: auto; 
+}
+
+#textInt
+{
+  text-align: justify;
+}
+
+#infInt
+{
+   text-align: center;
+}
+
+#about
+{
+  text-align: justify;
+}
+
+.responsive-iframe
+{
+  position: relative;
+  padding-top: 56.25%;
+}
+.responsive-iframe iframe
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Añade el pie de página*/
+footer
+{
+    background-color: #a8e3ff;
+    text-align: center;
+    padding: 20px;
+    font-family: Century Gothic;
+    font-size: 1em;
+    width: 100%;
+}

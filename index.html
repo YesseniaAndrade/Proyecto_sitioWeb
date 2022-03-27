@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../myBootstrapWeb/jquery/jquery-3.6.0.min.js"></script>
+    <script SRC="../myBootstrapWeb/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../myBootstrapWeb/css/bootstrap.min.css">
+     
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../myBootstrapWeb/css/estiloEtiqueta.css">
+    <link rel="stylesheet" href="../myBootstrapWeb/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+</head>
+<body>
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+  
+
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav> 
+
+
+
+    <br> <br>
+      <!--/*Genera el segundo encabezado después de la barra de busqueda*/-->
+      <div class="d-flex justify-content-center" id="etiquetaVacaciones"> 
+          <p>¡ENCUENTRA TUS VACACIONES PERFECTAS!</p>
+      </div>
+    <main>
+        <div class="d-flex justify-content-center" id="imagenes"> 
+            <figure>
+                <img src=".\images/gua.jpg">
+                <img src=".\images/mex.jpg">
+                <img src=".\images/inde.jpg">
+                <img src=".\images/cas.jpg">
+                <img src=".\images/tequi.jpg">            
+            </figure>
+        </div>
+      
+      <br>
+      <br>
+        
+      <div class="d-flex justify-content-center" id="viaja">
+          <h1>¡Viaja por México!</h1> 
+      </div>
+        <br>
+      
+      <div class="d-flex justify-content-center" id="bienvenida">
+        <h3 class=>BIENVENIDO</h3>
+      </div> 
+      <div class="cover d-flex justify-content-center align-items-center" id="descripcion">
+            <h4> 
+              En este sitio encontrarás las mejores opciones para tu viaje en México; un poco sobre rutas, gastronomía, hospedaje y planeación de tu viaje ideal.      
+              Ya sea que busques un destino de playa en las hermosas playas de México o un destino cultural.    
+            </h4>
+        </div>
+        <!-- /*Añade el video de introducción en la página principal*/-->
+      <div class="cajaVideo">
+        <br>
+          <video controls autoplay>
+              <source src=".\images\video.mp4" type="video/mp4"/>
+              <source src="mov_bbb.ogg" type="video/ogg">
+            </video>     
+      </div>
+    </main>  
+    <div class="container"  id="direcciones"><h2><br>Contenido de interés</h2>
+      <div class = "row"> 
+        <div class = "col d-flex justify-content-center align-items-center flex-column col pb-5" id="">
+          <div class="card " id = "playMex" style="width:18rem;">
+            <img class="card-img-top" src=".\images\PLAYAS.jpg" alt="Imagen de playas de México" >
+            <div class="card-body cover d-flex justify-content-center align-items-center flex-column">
+              <h4 class="card-title ">Playas de México</h4>
+              <p class="card-text">Cada playa tiene algo especial que ofrecer para todos los gustos y presupuestos. Haz clic para saber más. </p>
+              <a href="#" class="btn btn-primary">VER PLAYAS</a>
+            </div>
+          </div>
+        </div>
+      <div class = "col d-flex justify-content-center align-items-center flex-column col pb-5 ">
+        <div class="card" id = "puebMex" style="width:18rem;">
+          <img class="card-img-top" src=".\images\PUEBLOS MÁGICOS.png" alt="Imagen de playas de México" >
+          <div class="card-body cover d-flex justify-content-center align-items-center flex-column">
+            <h4 class="card-title">Pueblos mágicos</h4>
+            <p class="card-text">Los Pueblos Mágicos se definen como lugares con grandes simbolismos y leyendas, no te pierdas estas ubicaciones.</p>
+            <a href="#" class="btn btn-primary">VER PUEBLOS MÁGICOS</a>
+          </div>
+        </div>
+      </div>
+      <div class = "col d-flex justify-content-center align-items-center flex-column col pb-5">
+        <div class="card" id = "zonMex" style="width:18rem;">
+          <img class="card-img-top" src=".\images\ZONAS ARQUEOLÓGICAS.jfif" alt="Imagen de playas de México" >
+          <div class="card-body cover d-flex justify-content-center align-items-center flex-column">
+            <h4 class="card-title">Zonas arqueológicas</h4>
+            <p class="card-text">Otra maravilla son las zonas de cultura prehispánica. Inspírate con la gran herencia de estas extraordinarias culturas. </p>
+            <a href="#" class="btn btn-primary">VER ZONAS ARQUEOLÓGICAS</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+    <section>
+      <div class="container">
+        <h4>
+          ¡Aquí nos vemos!
+        </h4>
+        <div class = "responsive-iframe">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14978231.706706632!2d-108.44021640787031!3d23.575810397027947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2zTcOpeGljbw!5e0!3m2!1ses-419!2smx!4v1648004978178!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  <br>
+
+    <footer>
+      <h3>¡Visita nuestras redes sociales!</h3>
+      
+      <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <br>
+      
+      <p>Copyright</p>
+      <p>25/03/2022</p>
+    </footer>
+  </body>
+</html>
+ 

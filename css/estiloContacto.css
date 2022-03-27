@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    margin: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .column {
+        width: 100%;
+      }
+    /*.column.side, .column.middle {
+    width: 100%;
+  }*/
+    .videoInicio{
+        width: 100%;
+      }
+}
+
+#descripcionc
+{
+    margin: auto;
+    text-align:justify;
+    width: 80%;
+    font-family: Century Gothic;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+#despedida
+{
+    margin: auto;
+    text-align:justify;
+    width: 80%;
+    font-family: Century Gothic;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 60px;
+}
+/*Añade el pie de página*/
+footer
+{
+    background-color: #a8e3ff;
+    text-align: center;
+    padding: 20px;
+    font-family: Century Gothic;
+    font-size: 1em;
+    width: 100%;
+}

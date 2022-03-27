@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src=".\myBootstrapWeb\jquery\jquery-3.6.0.min.js"></script>
+    <script SRC=".\myBootstrapWeb\js\bootstrap.bundle.min.js"></script>    
+    <link rel="stylesheet" href=".\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\estiloEtiqueta.css">
+    <link rel="stylesheet" href=".\css\estiloJalisco.css">
+    <link rel="stylesheet" href="../myBootstrapWeb/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href=".\fontawesome-free-5.15.4-web\css\all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+</head>
+
+<body>
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+        
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav> 
+
+    <div class="cover d-flex justify-content-center align-items-center flex-column" id="DestinosImgIntro" >
+      <h1 class="w3-ma rgin w3-jumbo" >Jalisco</h1>
+      <p class="w3-xlarge" id="infInt">Destino de clase mundial, emblemático por ser cuna del mariachi y el tequila.</p>
+    </div>
+   
+    <section> 
+        <div class="cajaVideo container mt-25 mb-15 w3-padding-32">
+        <video controls autoplay>
+            <source src=".\images\jalisco.mp4" type="video/mp4"/>
+            <source src="mov_bbb.ogg" type="video/ogg">
+            </video>  
+        </div>
+        <div class="JaliscoImAnimada container mt-25 mb-15 flex-column" id="textInt">
+          <img src=".\images\jaliscomapacolor.jpg" class="float-left   mr-4" id="imfoto" height="250">
+          <p>Entre campos de agave, playas, montañas, grandes ciudades y Pueblos Mágicos está el estado de Jalisco.
+            <br><br>
+            Ubicado en la zona oeste del país, colinda con los estados de Nayarit, Zacatecas, Michoacán y Colima.
+            <br><br>
+            Su capital, Guadalajara es una de las ciudades más importantes del país. En su centro histórico encontrarás edificios de alto valor artístico, cultural e histórico, como la Catedral Metropolitana y el impresionante Teatro Degollado. Visita el Instituto Cultural Cabañas, considerado como Patrimonio Cultural de la Humanidad.
+            <br><br>
+            La tradición y belleza de los Pueblos Mágicos del estado de Jalisco, son atractivos que cada año atraen a un gran número de turistas, ávidos por conocer esos símbolos tan característicos de la mexicanidad.
+            <br><br>
+            Mazamitla tiene un encanto especial entre cabañas de madera y calles empedradas. Los amantes de la naturaleza disfrutarán de lugares como las cascadas El Pedregal, El Salto y el Cerro del Chacal.
+            <br><br>
+            Lagos de Moreno es una joya de la arquitectura colonial, su centro histórico es considerado como Patrimonio Cultural de la Humanidad por la Unesco. No dejes de visitar la Parroquia de la Asunción; el Teatro Rosas Moreno y el Templo del Calvario, así como el Museo de Arte Sacro.
+            <br><br>
+            Tequila es la cuna de esta bebida tan representativa de México, que ha sido reconocida internacionalmente y cuenta con denominación de origen. Este Pueblo Mágico destaca por la belleza de sus calles, de su plaza principal, portales, la Parroquia de Santiago Apóstol, el Museo Tradicional del Tequila, el Museo de la Familia Sauza y el de la Cofradía.
+            Durante tu visita te recomendamos las visitas guiadas a las destilerías para conocer el proceso de elaboración del tequila.
+            <br><br>
+            Deléitate con la deliciosa gastronomía que el estado ofrece, como una rica torta ahogada, la birria, el pozole y un refrescante tejuino.
+            <br><br>
+            Disfruta de la fiesta, el folclor, la tradición y el mariachi al puro estilo Jalisco.
+          </p>
+          </div>
+        </section> 
+          <section>
+            <div class="container">
+              <h4>
+                <br><br>
+                ¡Aquí nos vemos!
+              </h4>
+              <div class = "responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4551844.916108646!2d-105.31083725984485!3d21.5457456934166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1648370084501!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
+              </div>
+            </div>
+          </section>
+        <br>
+
+        <div class="container mt-5 mb-5"><h2>Contenido de interés</h2>
+          <div class = "row"> 
+            <div class = " cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+                <h5 class="w3-ma rgin ">Tequila</h5>
+                <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                  <input type="image" class="img-thumbnail" src=".\images\cuatroCienegas.jpg" >
+                </a>
+            </div>
+           
+            <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+              <h5 class="w3-ma rgin ">Mazamitla</h5>
+              <a  class="card" id = "puebMex" style="width:18rem; "href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\Mazamitla.jpg" >
+              </a>
+            </div> 
+  
+            <div class = "cover d-flex justify-content-center align-items-center flex-column col pb-5">
+              <h5 class="w3-ma rgin ">Puerto Vallarta</h5>
+              <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\PuertoV.jpg">
+              </a>
+            </div> 
+          </div> 
+        </div> 
+      <!-- About Section -->
+      <div class="w3-center  w3-padding-16 container  text-align-justify" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dato Interesante</h3>
+        <p id="about"> La música de mariachi, el tequila y el deporte nacional mexicano de la charrería, son símbolos 
+            de Jalisco, estado rico en cultura que alberga algunos de los destinos más emblemáticos del México, incluida la 
+            ciudad capital, Guadalajara, así como las playas y montaña de Puerto Vallarta, los campos de agave azul del Pueblo
+            Mágico Tequila, un sitio del Patrimonio Mundial de la UNESCO. Jalisco recibe 31 millones de visitantes por año y
+            siempre ha estado a la vanguardia de la industria del turismo de descanso, negocios y reuniones.
+         </p>
+        </div>  
+    </div>
+
+    <!-- Footer -->  
+    <footer>
+      <h3>¡Visita nuestras redes sociales!</h3>
+      <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <br><br>
+      <p>Copyright</p>
+      <p>25/03/2022</p>
+    </footer> 
+
+</body>
+</html>
+ 
+ 

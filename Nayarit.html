@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src=".\myBootstrapWeb\jquery\jquery-3.6.0.min.js"></script>
+    <script SRC=".\myBootstrapWeb\js\bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href=".\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\estiloEtiqueta.css">
+    <link rel="stylesheet" href=".\css\estiloNayarit.css">
+    <link rel="stylesheet" href=".\fontawesome-free-5.15.4-web\css\all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+</head>
+<body>
+
+  
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav> 
+
+
+    <div class="cover d-flex justify-content-center align-items-center flex-column" id="DestinosImgIntro">
+      <h1 class="w3-ma rgin w3-jumbo mt-25">Nayarit</h1>
+      <p class="w3-xlarge" id="infInt">Un estado que aloja una increíble franja costera con destinos de primer nivel.</p>
+    </div>
+   
+    <section> 
+        <div class="cajaVideo container mt-25 mb-15 w3-padding-32">
+        <video controls autoplay>
+            <source src=".\images\nayarit.mp4" type="video/mp4"/>
+            <source src="mov_bbb.ogg" type="video/ogg">
+            </video>  
+        </div>
+        <div class="NayaritImAnimada container mt-25 mb-15 flex-column" id="textInt">
+          <img src=".\images\nayaritcol.jpg" class="float-left   mr-4" id="imfoto" height="250">
+          <p>
+            En el estado de Nayarit te esperan grandes aventuras entre maravillas naturales, hermosas playas, islas, lagunas y regiones montañosas.
+            <br><br>
+            Se encuentra en la región occidente del país, limita al norte con Durango y Sinaloa y al sur con Jalisco. Descubre su gran variedad de atractivos que lo han hecho popular entre los viajeros de todo el mundo.
+            <br><br>
+            En Tepic, la capital, aprenderás de su pasado colonial a través de sus museos, edificios históricos como la Catedral de Tepic y el Exconvento de la Cruz. La ciudad también es sede de diversos festivales de arte, música y gastronomía.
+            <br><br>
+            Disfruta de la naturaleza y el sol en sus increíbles playas, visita Punta de Mita, Bucerías, Flamingos, Corral del Risco, Cruz de Huanacaxtle, Jarretaderas, El Anclote, Litibú y San Pancho.
+            <br><br>
+            El Pueblo Mágico de Sayulita es el destino predilecto de los surfistas que buscan las mejores olas y un ambiente relajado. Este también es un buen punto de partida para llegar a la playa del amor en el parque nacional Islas Marietas.
+            <br><br>
+            Otro de los Pueblos Mágicos de Nayarit es Jala, donde podrás descubrir la cascada El Salto, practicar ecoturismo en los alrededores del volcán Ceboruco y admirar los edificios históricos de la región.
+            <br><br>
+            Compostela, también Pueblo Mágico, te cautivará con sus hermosas calles y edificios coloniales como el Templo de la Misericordia de San Santiago Apóstol y La Hacienda Miravalles que data del siglo XVI.
+            <br><br>
+            La gastronomía nayarita es reconocida como Patrimonio Inmaterial del Estado y su mezcla de sabores la hace única. No dejes de probar el pescado zarandeado, el chicharrón de pescado y de postre una tradicional capirotada.
+
+          </p>
+        </div>
+      </section>          
+        
+      <section>
+        <div class="container">
+          <h4>
+            <br><br>
+            ¡Aquí nos vemos!
+          </h4>
+          <div class = "responsive-iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879524.7250102162!2d-105.0036441320727!3d22.700539196394704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842735d8893dcfdb%3A0x83784645f40c2d79!2sTepic%2C%20Nay.!5e0!3m2!1ses-419!2smx!4v1648331652292!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+      <br>
+
+      <div class="container mt-5 mb-5"><h2>Contenido de interés</h2>
+        <div class = "row"> 
+          <div class = " cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+              <h5 class="w3-ma rgin ">Cascada Salto de Jala</h5>
+              <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+                <input type="image" class="img-thumbnail" src=".\images\jala.jpg" >
+              </a>
+          </div>
+         
+          <div class = "cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+            <h5 class="w3-ma rgin ">Palenque</h5>
+            <a  class="card" id = "puebMex" style="width:18rem; "href=".\Contacto.html">
+              <input type="image" class="img-thumbnail" src=".\images\palenque.jpg" >
+            </a>
+          </div> 
+
+          <div class = "cover d-flex justify-content-center align-items-center flex-column col  pb-5">
+            <h5 class="w3-ma rgin ">Tuxtla Gutiérrez</h5>
+            <a class="card" id = "playMex" style="width:18rem;"href=".\Contacto.html">
+              <input type="image" class="img-thumbnail" src=".\images\tuxtla.jpg" >
+            </a>
+          </div> 
+        </div>
+      </div>
+              <!-- About Section -->
+      <div class="w3-center  w3-padding-16 container  text-align-justify" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Dato Interesante</h3>
+        <p id="about">En la costa del Pacífico y cobijado por los estados de Sinaloa, Durango, Zacatecas y Jalisco, 
+          yace el bellísimo estado de Nayarit. Sus orígenes se hallan en los grupos coras y huicholes que se
+          asentaron en las montañas de la Sierra Madre Occidental. Desde tiempos antiguos fue importante 
+          zona de tránsito, y según la leyenda, de la isla de Mexcaltitán salió el grupo que, guiado por el
+          mítico Huitzilopochtli, fundaría la gran Tenochtitlan. Durante el siglo XVIII sería el punto de 
+          partida para la evangelización de la Alta California.
+          <br><br>
+          Es así que lo mismo cuenta con sitios arqueológicos, que con edificios y monumentos coloniales y del siglo XIX.
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <h3>¡Visita nuestras redes sociales!</h3>
+
+        <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <br>  
+        <p>Copyright</p>
+        <p>25/03/2022</p>
+    </footer>
+  </body>
+</html>   

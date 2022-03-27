@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../myBootstrapWeb/jquery/jquery-3.6.0.min.js"></script>
+    <script SRC="../myBootstrapWeb/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../myBootstrapWeb/css/bootstrap.min.css">
+     
+    <title>México Turístico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\estiloEtiqueta.css">
+    <link rel="stylesheet" href=".\css\estiloContacto.css">
+    <link rel="stylesheet" href=".\fontawesome-free-5.15.4-web\css\all.css">
+    <link rel="icon" href=".\images\icono.png"\>
+
+</head>
+<body>
+    <header  class=".container" id="titulo">
+      <div class="jumbotron bg-az1" id="titulo">
+        <h1 class=" text-align: center ">MÉXICO TURÍSTICO</h1>
+      </div> 
+    </header>
+    <nav class="active navbar navbar-expand-sm bg-primary navbar-dark" >
+      <a class="navbar-brand" href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+      <button class="active navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="contenido">
+        <ul class="navbar-nav mr-auto">
+          <li class="active nav-item">
+            <a class="nav-link" href="Destinos.html"><i class="fa fa-fw fa-map"></i>Destinos</a> 
+          </li>
+
+          <li class="active nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDrop" data-toggle="dropdown">
+              <i class="fa fa-fw fa-bus "></i>Paquetes
+            </a>
+          <div class="dropdown-menu bg-primary  ">
+            <a class="dropdown-item" id="active"  href="#">Paquetes</a>
+            <div class=" dropdown-divider" ></div>
+            <a class="dropdown-item" id="active" href="#">Promociones</a>
+          </div>
+          </li>
+        </ul> 
+        
+        <form class="form-inline">
+          <a class="nav-link" href=".\Contacto.html"><i class="fa fa-fw fa-user"></i>Contacto</a>
+          <a class="nav-link" href=".\EquipoTrabajo.html"><i class="fa fa-fw fa-child"></i>Equipo de trabajo</a>
+        </form>
+      </div>
+    </nav>   
+    <div class="d-flex justify-content-center" id="etiquetaVacaciones"> 
+        <h2>Conoce sobre nosotros</h2>
+        </div>
+        <main>
+        <div class="d-flex justify-content-center" id="imagenes"> 
+          <figure>
+            <img src=".\images\concha.jpg">
+            <img src=".\images\piñata.jpg">
+            <img src=".\images\barro.jpg">       
+            <img src=".\images\pira.jpg">
+            <img src=".\images\niña.jpg">
+          </figure>
+    </div>
+    <div>
+    <div class="cover d-flex justify-content-center align-items-center" id="descripcionc">
+    
+        <p>
+            México Turistico comenzó sus operaciones en la ciudad mexicana de Guadalajara en el año 2010. Nuestro equipo está 
+            conformado por personas de diferentes naciones como México, Alemania, y los Estados Unidos, juntando más de 60 años
+            de experiencia en diferentes áreas de conocimiento, incluyendo internet, viajes, turismo y ventas.
+            <br>
+            La mayor parte de la tecnología empleada en México Turistico ha sido desarrollada por nuestro equipo, el cual 
+            se encuentra constantemente perfeccionando cada aspecto de nuestro portal. La gran mayoría de las mejoras provienen 
+            directamente de las sugerencias y comentarios de nuestros clientes.
+        </p>
+        
+    </div>
+  </div>
+    <div class="cover d-flex justify-content-center align-items-center"  id="despedida">
+            <h2><b>Contáctanos.</b></h2>
+    </div>
+    <div class="container">
+        <p></p>
+        <form class="form-inline" action="/action_page.php">
+          <label for="email2" class="mb-2 mr-sm-2">Email:</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email">
+          <br>
+          <label for="pwd2" class="mb-2 mr-sm-2">Contraseña:</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Enter password" name="pswd">
+          <div class="form-check mb-2 mr-sm-2">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="remember"> Recordar usuario y contraseña
+            </label>
+          </div>    
+          <button type="submit" class="btn btn-primary mb-2">Ingresar</button>
+        </form>
+      </div>
+      <div class="container mb-5">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="comment">Ingresa tus comentarios:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          </div><br>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      
+      
+    <footer>
+      <h3>¡Visita nuestras redes sociales!</h3>
+      <a href="https://www.facebook.com/mexicoTuristico123/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/mexico_turistico/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.pinterest.com.mx/mexicoturistico/_created/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/MxicoTuristico1"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <br><br>
+      <p>Copyright</p>
+      <p>25/03/2022</p>
+      </footer> 
+    </body>
+</html>
+ 
+
